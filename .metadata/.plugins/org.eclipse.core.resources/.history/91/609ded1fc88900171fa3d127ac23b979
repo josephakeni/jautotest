@@ -1,0 +1,16 @@
+
+public class Methods {
+	/*
+	 * java starts running from the main block below
+	 */
+
+	public static void main(String[] args) {
+
+		Parent abc = new Parent();
+		Parent.ValidateHeader();
+		System.out.println(Parent.filename());
+		System.out.println(Parent.ValidateHeader());
+
+	}
+
+}

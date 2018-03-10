@@ -1,0 +1,11 @@
+
+public class Parent {
+
+	public static String ValidateHeader() {
+		// TODO Auto-generated method stub
+		System.out.println("system is validated home page");
+		
+		return "pass";
+	}
+
+}

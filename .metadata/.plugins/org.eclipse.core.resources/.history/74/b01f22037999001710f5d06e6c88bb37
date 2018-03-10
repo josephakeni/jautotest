@@ -1,0 +1,33 @@
+package stepDefinition;
+
+import static org.junit.Assert.assertEquals;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import implementation.Checkout;
+
+public class CheckoutSteps {
+	Checkout checkout;
+	int bananaPrice = 0;
+
+	@Given("^the price of a \"(.*?)\" is (\\d+)c$")
+	public void the_price_of_a_is_c(String name, int price) throws Throwable {
+		bananaPrice = price;
+
+	}
+
+	@When("^I checkout (\\d+) \"(.*?)\"$")
+	public void i_checkout(int itemCount, String itemName) throws Throwable {
+		Checkout checkout = new Checkout();
+		checkout.add(itemCount, bananaPrice);
+		System.out.println(checkout.total());
+	}
+
+	@Then("^the total price should be (\\d+)c$")
+	public void the_total_price_should_be_c(int total) throws Throwable {
+		assertEquals(total, checkout.total());
+
+	}
+}

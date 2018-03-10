@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="0" name="runner.TestRunner" time="0.074" errors="0" skipped="10">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_141\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\project\selenium\cucumberTutorial"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\project\selenium\cucumberTutorial"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_141\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKINTU~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\project\selenium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7392346668936801537.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_141/bin/client;C:/Program Files (x86)/Java/jre1.8.0_141/bin;C:/Program Files (x86)/Java/jre1.8.0_141/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Acer\Remote Files\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;%GROOVY_HOME%\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Program Files (x86)\Brackets\command;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Akintunde\Anaconda3;C:\Users\Akintunde\Anaconda3\Scripts;C:\Users\Akintunde\Anaconda3\Library\bin;C:\Users\Akintunde\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Akintunde\AppData\Local\Programs\Python\Python36-32\;C:\Users\Akintunde\AppData\Local\Microsoft\WindowsApps;C:\Users\Akintunde\AppData\Roaming\npm;C:\Program Files\gretl;;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Akintunde"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Akintunde"/>
+    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre1.8.0_141"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_141\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_141\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\project\selenium\cucumberTutorial\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="Given I have $500 in my account" time="0.01">
+    <skipped/>
+    <system-out>Feature: Cash Withdrawal
+
+  Scenario Outline: Withdraw fixed amount                      # checkout.feature:2
+    Given I have &lt;Balance&gt; in my account
+    When I choose to withdraw the fixed amount of &lt;Withdrawal&gt;
+    Then I should &lt;Outcome&gt;
+    And the balance of my account should be &lt;Remaining&gt;
+
+    Examples: Successful withdrawal
+</system-out>
+  </testcase>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="When I choose to withdraw the fixed amount of $50" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="Then I should receive $50 cash" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="And the balance of my account should be $450" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="| $500 | $50 | receive $50 cash | $450 |" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $50 | receive $50 cash | $450 |" name="| $500 | $50 | receive $50 cash | $450 |" time="0.011"/>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="Given I have $500 in my account" time="0">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Withdraw fixed amount             # checkout.feature:9
+    Given I have $500 in my account
+    When I choose to withdraw the fixed amount of $50
+    Then I should receive $50 cash
+    And the balance of my account should be $450
+</system-out>
+  </testcase>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="When I choose to withdraw the fixed amount of $100" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="Then I should receive $100 cash" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="And the balance of my account should be $400" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="| $500 | $100 | receive $100 cash | $400 |" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| $500 | $100 | receive $100 cash | $400 |" name="| $500 | $100 | receive $100 cash | $400 |" time="0.003"/>
+</testsuite>

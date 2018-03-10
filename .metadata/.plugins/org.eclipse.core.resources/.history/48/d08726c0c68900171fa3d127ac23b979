@@ -1,0 +1,27 @@
+
+public class Methods {
+	/*
+	 * java starts running from the main block below
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// This step prints the output
+		System.out.println("I have started learning java");
+		// Add two numbers
+
+		int a = 2;
+		int b = 3;
+		int sum = a + b;
+
+		System.out.println("the total sum is " + sum);
+
+		Parent abc = new Parent();
+		abc.ValidateHeader();
+		System.out.println(abc.filename();
+		System.out.println(abc.ValidateHeader());
+
+	}
+
+}

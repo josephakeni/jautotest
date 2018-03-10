@@ -1,0 +1,27 @@
+import java.io.File;
+
+public class Parent {
+	String dir = "C:\\Users\\Akintunde\\Desktop\\CareerInsight\\Eagle Eye";
+
+	public static String ValidateHeader() {
+		System.out.println("system is validated home page");
+
+		return "pass";
+	}
+
+	public double fsize() {
+
+		File file = new File(dir);
+		double bytes = file.length();
+		System.out.println(bytes);
+		return bytes;
+	}
+
+	public static String filename() {
+		File file = new File(dir);
+		String fName = file.getName();
+		System.out.println(fName);
+		return fName;
+	}
+
+}
