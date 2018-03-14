@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\project\\RightmoveSelenium_Test\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\project\\RightmoveSelenium_Test\\.git;
+GitRepositoriesView.GitDirectories=C\:\\project\\jautotest\\.git;C\:\\project\\RightmoveSelenium_Test\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\project\\RightmoveSelenium_Test\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

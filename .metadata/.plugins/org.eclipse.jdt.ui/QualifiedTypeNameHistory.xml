@@ -24,4 +24,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="cucumber.api.SnippetType"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="pageObjects.HomePage"/>
+<fullyQualifiedTypeName name="pageObjects.Sign_In_Page"/>
 </qualifiedTypeNameHistroy>
